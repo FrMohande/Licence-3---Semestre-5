@@ -1,0 +1,10 @@
+Le tp a été réalisé par OUTIOUA Mohand et Soleillet Jonathan
+
+Le tp est fonctionnel dans sa totalité.
+
+test_dir est le dossier qui contient tous les tests pour tester les cas de notre application
+
+list_chaine.c et list_chaine.h est la libraire pour notre structure de donnée ( liste chainée) , celà permettra de stocket l'i_noeud et le périphérique.
+
+
+Il suffit de faire un make test pour pouvoir lancer les tests ( celui crée le make de mdu en même temps )

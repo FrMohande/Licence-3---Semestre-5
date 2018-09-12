@@ -1,0 +1,17 @@
+data;
+set USINES := A B;
+set PAPIERS := Sup Moy Inf;
+set SEMAINES := 1 2 3;
+param prix :=
+A 1000
+B 2000;
+
+param tonne_produite :
+	Sup Moy Inf :=
+A 2 1 8
+B 7 1 2;
+
+param quantite_demande :=
+Sup	20
+Moy 5
+Inf 16;

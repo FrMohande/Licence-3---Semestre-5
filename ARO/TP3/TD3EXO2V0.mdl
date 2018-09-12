@@ -1,0 +1,16 @@
+set USINES;
+set PAPIERS;
+param prix{USINES} >= 0;
+param tonne_produite{USINES,PAPIERS} >= 0;
+param quantite_demande{PAPIERS} >= 0;
+
+var nb_jours{u in USINES} >=0;
+
+minimize cout:
+	sum{u in USINES} 
+		prix[u] * nb_jours[u];
+	
+subject to max_prod_jours {p in PAPIERS} :
+		sum{u in USINES}
+			(nb_jours[u] * tonne_produite[u,p]) >= quantite_demande[p];
+

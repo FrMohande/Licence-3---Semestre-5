@@ -1,0 +1,16 @@
+fr.univ_lille1.fil.coo.courriers
+fr.univ_lille1.fil.coo.courriers.city
+fr.univ_lille1.fil.coo.courriers.factory.city
+fr.univ_lille1.fil.coo.courriers.factory.contents.abs
+fr.univ_lille1.fil.coo.courriers.factory.contents.compositeContent
+fr.univ_lille1.fil.coo.courriers.factory.contents.moneyContent
+fr.univ_lille1.fil.coo.courriers.factory.contents.textContent
+fr.univ_lille1.fil.coo.courriers.factory.inhabitant
+fr.univ_lille1.fil.coo.courriers.factory.letters
+fr.univ_lille1.fil.coo.courriers.factory.letters.abs
+fr.univ_lille1.fil.coo.courriers.factory.letters.complexLetter
+fr.univ_lille1.fil.coo.courriers.factory.letters.promissoryNote
+fr.univ_lille1.fil.coo.courriers.factory.letters.simpleLetter
+fr.univ_lille1.fil.coo.courriers.letters
+fr.univ_lille1.fil.coo.courriers.letters.contents
+fr.univ_lille1.fil.coo.courriers.letters.decorators

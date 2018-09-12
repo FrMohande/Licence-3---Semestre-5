@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.8" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="fr.univ_lille1.fil.coo.courriers.city.Inhabitant" project="Courriers" 
+    file="/Courriers/src/fr/univ_lille1/fil/coo/courriers/city/Inhabitant.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="195" x="1741" y="482"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="fr.univ_lille1.fil.coo.courriers.city.City" project="Courriers" 
+    file="/Courriers/src/fr/univ_lille1/fil/coo/courriers/city/City.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="190" x="1530" y="819"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="fr.univ_lille1.fil.coo.courriers.city.Postbox" project="Courriers" 
+    file="/Courriers/src/fr/univ_lille1/fil/coo/courriers/city/Postbox.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1536" y="598"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="fr.univ_lille1.fil.coo.courriers.city.BankAccount" project="Courriers" 
+    file="/Courriers/src/fr/univ_lille1/fil/coo/courriers/city/BankAccount.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1876" y="1002"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="fr.univ_lille1.fil.coo.courriers.letters.ThanksLetter" project="Courriers" 
+    file="/Courriers/src/fr/univ_lille1/fil/coo/courriers/letters/ThanksLetter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="173" x="41" y="819"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="fr.univ_lille1.fil.coo.courriers.letters.SimpleLetter" project="Courriers" 
+    file="/Courriers/src/fr/univ_lille1/fil/coo/courriers/letters/SimpleLetter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="283" x="574" y="482"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="fr.univ_lille1.fil.coo.courriers.letters.Letter" project="Courriers" 
+    file="/Courriers/src/fr/univ_lille1/fil/coo/courriers/letters/Letter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="201" x="1741" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="fr.univ_lille1.fil.coo.courriers.letters.ComplexLetter" project="Courriers" 
+    file="/Courriers/src/fr/univ_lille1/fil/coo/courriers/letters/ComplexLetter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="225" x="309" y="482"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="fr.univ_lille1.fil.coo.courriers.letters.ReceiptLetter" project="Courriers" 
+    file="/Courriers/src/fr/univ_lille1/fil/coo/courriers/letters/ReceiptLetter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="280" x="254" y="819"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="fr.univ_lille1.fil.coo.courriers.letters.PromissoryNote" project="Courriers" 
+    file="/Courriers/src/fr/univ_lille1/fil/coo/courriers/letters/PromissoryNote.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="277" x="897" y="482"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="11" language="java" name="fr.univ_lille1.fil.coo.courriers.letters.decorators.Decorable" 
+    project="Courriers" file="/Courriers/src/fr/univ_lille1/fil/coo/courriers/letters/decorators/Decorable.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="63" width="205" x="574" y="819"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="12" language="java" name="fr.univ_lille1.fil.coo.courriers.letters.decorators.DecoratorLetter" 
+    project="Courriers" file="/Courriers/src/fr/univ_lille1/fil/coo/courriers/letters/decorators/DecoratorLetter.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2251" y="411"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="fr.univ_lille1.fil.coo.courriers.letters.decorators.UrgentLetter" 
+    project="Courriers" file="/Courriers/src/fr/univ_lille1/fil/coo/courriers/letters/decorators/UrgentLetter.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="205" x="2282" y="819"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="fr.univ_lille1.fil.coo.courriers.letters.contents.MoneyContent" 
+    project="Courriers" file="/Courriers/src/fr/univ_lille1/fil/coo/courriers/letters/contents/MoneyContent.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="197" x="1293" y="819"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="fr.univ_lille1.fil.coo.courriers.letters.contents.Content" project="Courriers" 
+    file="/Courriers/src/fr/univ_lille1/fil/coo/courriers/letters/contents/Content.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="197" x="1214" y="482"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="fr.univ_lille1.fil.coo.courriers.letters.contents.TextContent" 
+    project="Courriers" file="/Courriers/src/fr/univ_lille1/fil/coo/courriers/letters/contents/TextContent.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="197" x="1056" y="819"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="fr.univ_lille1.fil.coo.courriers.letters.contents.CompositeContent" 
+    project="Courriers" file="/Courriers/src/fr/univ_lille1/fil/coo/courriers/letters/contents/CompositeContent.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="197" x="819" y="819"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="fr.univ_lille1.fil.coo.courriers.letters.decorators.RegisteredLetter" 
+    project="Courriers" file="/Courriers/src/fr/univ_lille1/fil/coo/courriers/letters/decorators/RegisteredLetter.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="205" x="2037" y="819"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="19">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <generalization id="20">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <generalization id="21">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <association id="22">    
+    <bendpoint x="1418" y="402"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="23" name="content"/>      
+      <multiplicity id="24" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="25">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <association id="26">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="27" name="letters"/>      
+      <multiplicity id="28" minimum="0" maximum="2147483647">        
+        <position height="16" width="21" x="1698" y="365"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="29">    
+    <bendpoint x="931" y="393"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="30">    
+    <bendpoint x="2045" y="348"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <association id="31">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="32" name="postbox">        
+        <position height="18" width="49" x="1559" y="477"/>      
+      </attribute>      
+      <multiplicity id="33" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="34">    
+    <bendpoint x="1634" y="752"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="35" name="inhabitants"/>      
+      <multiplicity id="36" minimum="0" maximum="2147483647">        
+        <position height="16" width="21" x="1719" y="702"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="37">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="38" name="receiver">        
+        <position height="18" width="50" x="1865" y="449"/>      
+      </attribute>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="40">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <association id="41">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="42" name="bankAccount">        
+        <position height="18" width="74" x="1882" y="809"/>      
+      </attribute>      
+      <multiplicity id="43" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="44">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <generalization id="45">    
+    <bendpoint x="1198" y="405"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <association id="46">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="47" name="contents"/>      
+      <multiplicity id="48" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="49">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="50" name="sender">        
+        <position height="18" width="44" x="1762" y="449"/>      
+      </attribute>      
+      <multiplicity id="51" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="52">    
+    <bendpoint x="568" y="384"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <association id="53">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="54" name="postbox">        
+        <position height="18" width="49" x="1449" y="485"/>      
+      </attribute>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="56">    
+    <bendpoint x="2070" y="306"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="57" name="letter"/>      
+      <multiplicity id="58" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="59">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <generalization id="60">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <realization id="61">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

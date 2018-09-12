@@ -1,0 +1,8 @@
+Le tp a été réalisé par Jonathan Soleillet et Outioua Mohand 
+
+
+
+Nous avons répondu à toutes les questions. Par contre, sur les septs erreurs possibles, nous en avons trouvé que six sur les septs.
+
+
+La script ./test.sh crée un répertoire test où il y génére des fichiers qui permettent de reproduire les erreurs. Ce script demande si vous voulez l'effacer à la fin. Tapez 1 si vous voulez le supprimer.

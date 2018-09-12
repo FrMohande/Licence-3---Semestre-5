@@ -1,0 +1,17 @@
+set VEGETAUX := betterave ble mais;
+set ANIMAUX := vaches;
+
+param max_are := 200;
+param: rendement  vente_max prix_vente :=
+betterave 1 10 100
+ble 0.6 20 120
+mais 0.5 20 90;
+param nb_ares_anim :=
+vaches 2;
+
+param consomation:
+	betterave ble mais :=
+vaches 0.6 0.2 0.2 ;
+
+param vente_prod_animaux:=
+vaches 150;

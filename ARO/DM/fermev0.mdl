@@ -1,0 +1,70 @@
+reset;
+/* Pour résoudre en nombres entiers*/
+option solver gurobi;
+
+/* ------------------------------- ENSEMBLE -----------------------------*/
+
+/* vegetaux va stocker le blés,les betteraves et le maîs */
+set VEGETAUX;
+/* animaux va stocker les vaches */
+set ANIMAUX;
+
+/* ----------------------- PARAMÈTRES ----------------------------------- */
+
+param consomation{ANIMAUX , VEGETAUX};
+param nb_ares_anim{ANIMAUX};
+param rendement{VEGETAUX};
+param vente_max{VEGETAUX};
+param prix_vente{VEGETAUX};
+param max_are;
+/* vente_prod_animaux correponds à lait de vache = 150 euros/unités
+param vente_prod_animaux{ANIMAUX};
+
+
+/* ------------------------ VARIABLES -------------------------- */
+var nb_animaux{a in ANIMAUX} integer >= 0 ;
+var nb_vegetaux{ p in VEGETAUX} integer >= 0 ;
+var nb_are integer >=0;
+var nb_veg_mange_animaux{v in VEGETAUX,a in ANIMAUX} >=0;
+var production_vegetaux{v in VEGETAUX} >= 0 ;
+var production_vegetaux_restant{v in VEGETAUX} >=0;
+
+
+/* ------------------------- PARAMÈTRES CALCULÉS ------------------------ */
+
+
+
+subject to calcul_nb_are_occu :
+	/* permet de savoir le nombre d'ares consommés */
+	nb_are = sum{a in ANIMAUX} nb_ares_anim[a]*nb_animaux[a] + sum{v in VEGETAUX} nb_vegetaux[v];
+
+subject to calcul_nb_veg_mange_animaux{v in VEGETAUX, a in ANIMAUX} :
+	/* permet de savoir le nombre de vegetaux que les animaux mangent */
+		nb_veg_mange_animaux[v,a] = (consomation[a,v]* nb_animaux[a]);
+
+subject to calcul_production_tonne_vegetaux {v in VEGETAUX} :
+	/* permet de savoir de savoir le nombre de vegetaux en tonnes */
+	production_vegetaux[v] = (nb_vegetaux[v] * rendement[v]);
+
+subject to calcul_production_vegetaux_restant {v in VEGETAUX}:
+		/* permet de savoir combien de vegetaux il reste que les vaches ait mangés */
+		production_vegetaux_restant[v] = sum {a in ANIMAUX} (production_vegetaux[v] - nb_veg_mange_animaux[v,a]);
+/* --------------------- CONTRAINTES ---------------------------- */
+
+/* contraintes sur le nombre d'ares */
+subject to nb_are_max :
+	nb_are <= max_are;
+
+subject to production_mini_vegetaux{ v in VEGETAUX } :
+	sum {a in ANIMAUX}
+	/* On dois produire un minimum de vegetaux pour nourrir les animaux */
+	 nb_veg_mange_animaux[v,a] <= production_vegetaux[v];
+
+subject to vente_maximum_vegetaux {v in VEGETAUX} :
+	sum {a in ANIMAUX}
+	/* Tous ce qu'on a VEGETAUX produit  - la consommation de toutes nos vaches ne dois pas être plus grand que la vente maximal */
+		(production_vegetaux[v] - nb_veg_mange_animaux[v,a]) <= vente_max[v];
+
+/* ---------------------- OBJECTIF --------------------------- */		
+maximize objective :
+	sum{v in VEGETAUX} (prix_vente[v]* production_vegetaux_restant[v])  + ( sum {a in ANIMAUX} ( nb_animaux[a] * vente_prod_animaux[a]));

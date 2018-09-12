@@ -1,0 +1,16 @@
+Le tp a été réalisé par Soleillet Jonathan et Outioua Mohand
+
+
+ Dans le test.sh, on ne lance pas le programme observation mais celui ci a été fait.
+
+
+Réponse à l'exercice 8 ( Observation de processus ) ::
+
+Question 2 ::
+
+Si nous tuons le processus père, le programme continue de tourner, pour que le programme s'arrêtes définitivement,il faut tuer tous les processus fils. le processus fils devient orphelin, init le récupere.
+
+Question 3 ::
+
+->Après avoir fait un ps -a ,On remarque que le processus fils que nous avons kill et toujours présent celui ci est devenu un zombie, le système garde les informations de terminaisons de celui-ci afin de les restituer au père.
+->On a recupèré l'information de terminaison du fils, on remarque que celui ci n'apparait plus après un ps -a.

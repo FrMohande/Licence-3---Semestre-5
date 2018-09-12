@@ -1,0 +1,255 @@
+Cette session a été enregistrée avec la commande script dans un
+fichier « typescript », puis nettoyée en faisant « cat typescript » et
+en copiant le résultat dans ce fichier.
+
+
+Le script a débuté sur ven. 09 sept. 2016 14:30:58 CEST
+
+[0]
+14:31:00 /tmp
+$ ln -s /tmp ln
+
+[0]
+14:31:35 /tmp
+$ ls -l ln
+lrwxrwxrwx 1 hym hym 4 sept.  9 14:31 ln -> /tmp
+
+[0]
+14:31:40 /tmp
+$ cd ln
+/tmp/ln
+
+[0]
+14:32:05 /tmp/ln
+$ ls
+ln
+
+[0]
+14:32:28 /tmp/ln
+$ cd ln
+/tmp/ln/ln
+
+[0]
+14:32:34 /tmp/ln/ln
+$ cd ln
+/tmp/ln/ln/ln
+
+[0]
+14:32:35 /tmp/ln/ln/ln
+$ cd ln
+/tmp/ln/ln/ln/ln
+
+[0]
+14:32:36 /tmp/ln/ln/ln/ln
+$ ls
+ln
+
+[0]
+14:32:37 /tmp/ln/ln/ln/ln
+$ cd /tmp/
+
+[0]
+14:33:42 /tmp
+$ ln -s piege piege
+
+[0]
+14:33:50 /tmp
+$ ls -l
+total 24
+lrwxrwxrwx 1 hym  hym     4 sept.  9 14:31 ln -> /tmp
+lrwxrwxrwx 1 hym  hym     5 sept.  9 14:33 piege -> piege
+
+[0]
+14:33:59 /tmp
+$ cd piege
+bash: cd: piege: Trop de niveaux de liens symboliques
+
+[1]
+14:34:11 /tmp
+$ for (( i = 0; i < 99; i++)); do ln -s "$i" "$((i + 1))"; done
+
+[0]
+14:35:21 /tmp
+$ ls
+1   42  75
+10  43  76
+11  44  77
+12  45  78
+13  46  79
+14  47  8
+15  48  80
+16  49  81
+17  5   82
+18  50  83
+19  51  84
+2   52  85
+20  53  86
+21  54  87
+22  55  88
+23  56  89
+24  57  9
+25  58  90
+26  59  91
+27  6   92
+28  60  93
+29  61  94
+3   62  95
+30  63  96
+31  64  97
+32  65  98
+33  66  99
+34  67  ln
+35  68  piege
+36  69
+37  7
+38  70
+39  71
+4   72
+40  73
+41  74
+
+[0]
+14:35:23 /tmp
+$ ls -l ?
+lrwxrwxrwx 1 hym hym 1 sept.  9 14:35 1 -> 0
+lrwxrwxrwx 1 hym hym 1 sept.  9 14:35 2 -> 1
+lrwxrwxrwx 1 hym hym 1 sept.  9 14:35 3 -> 2
+lrwxrwxrwx 1 hym hym 1 sept.  9 14:35 4 -> 3
+lrwxrwxrwx 1 hym hym 1 sept.  9 14:35 5 -> 4
+lrwxrwxrwx 1 hym hym 1 sept.  9 14:35 6 -> 5
+lrwxrwxrwx 1 hym hym 1 sept.  9 14:35 7 -> 6
+lrwxrwxrwx 1 hym hym 1 sept.  9 14:35 8 -> 7
+lrwxrwxrwx 1 hym hym 1 sept.  9 14:35 9 -> 8
+
+[0]
+14:35:31 /tmp
+$ > 0
+
+[0]
+14:35:48 /tmp
+$ ls -l ?
+-rw-r--r-- 1 hym hym 0 sept.  9 14:35 0
+lrwxrwxrwx 1 hym hym 1 sept.  9 14:35 1 -> 0
+lrwxrwxrwx 1 hym hym 1 sept.  9 14:35 2 -> 1
+lrwxrwxrwx 1 hym hym 1 sept.  9 14:35 3 -> 2
+lrwxrwxrwx 1 hym hym 1 sept.  9 14:35 4 -> 3
+lrwxrwxrwx 1 hym hym 1 sept.  9 14:35 5 -> 4
+lrwxrwxrwx 1 hym hym 1 sept.  9 14:35 6 -> 5
+lrwxrwxrwx 1 hym hym 1 sept.  9 14:35 7 -> 6
+lrwxrwxrwx 1 hym hym 1 sept.  9 14:35 8 -> 7
+lrwxrwxrwx 1 hym hym 1 sept.  9 14:35 9 -> 8
+
+[0]
+14:35:52 /tmp
+$ ls -l ??
+lrwxrwxrwx 1 hym hym 1 sept.  9 14:35 10 -> 9
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 11 -> 10
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 12 -> 11
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 13 -> 12
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 14 -> 13
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 15 -> 14
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 16 -> 15
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 17 -> 16
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 18 -> 17
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 19 -> 18
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 20 -> 19
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 21 -> 20
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 22 -> 21
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 23 -> 22
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 24 -> 23
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 25 -> 24
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 26 -> 25
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 27 -> 26
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 28 -> 27
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 29 -> 28
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 30 -> 29
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 31 -> 30
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 32 -> 31
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 33 -> 32
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 34 -> 33
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 35 -> 34
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 36 -> 35
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 37 -> 36
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 38 -> 37
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 39 -> 38
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 40 -> 39
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 41 -> 40
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 42 -> 41
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 43 -> 42
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 44 -> 43
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 45 -> 44
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 46 -> 45
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 47 -> 46
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 48 -> 47
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 49 -> 48
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 50 -> 49
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 51 -> 50
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 52 -> 51
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 53 -> 52
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 54 -> 53
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 55 -> 54
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 56 -> 55
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 57 -> 56
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 58 -> 57
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 59 -> 58
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 60 -> 59
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 61 -> 60
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 62 -> 61
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 63 -> 62
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 64 -> 63
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 65 -> 64
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 66 -> 65
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 67 -> 66
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 68 -> 67
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 69 -> 68
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 70 -> 69
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 71 -> 70
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 72 -> 71
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 73 -> 72
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 74 -> 73
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 75 -> 74
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 76 -> 75
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 77 -> 76
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 78 -> 77
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 79 -> 78
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 80 -> 79
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 81 -> 80
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 82 -> 81
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 83 -> 82
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 84 -> 83
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 85 -> 84
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 86 -> 85
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 87 -> 86
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 88 -> 87
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 89 -> 88
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 90 -> 89
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 91 -> 90
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 92 -> 91
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 93 -> 92
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 94 -> 93
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 95 -> 94
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 96 -> 95
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 97 -> 96
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 98 -> 97
+lrwxrwxrwx 1 hym hym 2 sept.  9 14:35 99 -> 98
+lrwxrwxrwx 1 hym hym 4 sept.  9 14:31 ln -> /tmp
+
+[0]
+14:35:56 /tmp
+$ cat 42
+cat: 42: Trop de niveaux de liens symboliques
+
+[1]
+14:36:11 /tmp
+$ cat 41
+cat: 41: Trop de niveaux de liens symboliques
+
+[1]
+14:36:25 /tmp
+$ cat 40
+
+[0]
+14:36:27 /tmp
+$ exit
+
+Script terminé sur ven. 09 sept. 2016 14:37:44 CEST
